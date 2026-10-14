@@ -29,8 +29,19 @@ objeto que la cumple (adaptador `core/persistence.py`, `e73d1e0`, epoch `1791944
 [alexisromtz-lab/platino-labs](https://github.com/alexisromtz-lab/platino-labs); este repositorio
 existe para que el objeto publicado tenga una URL estable y citable **sin** arrastrar el corpus.
 
-## Licencia — divergencia declarada
+## Licencia — esquema de dos capas, y un defecto declarado
 
-El manuscrito declara `MIT` en su cabecera; el registro publicado declara `CC-BY-4.0`. La divergencia
-está **declarada en los metadatos del depósito** (`notes`) y **no se adjudica aquí**: el
-`CITATION.cff` de este repositorio cita la licencia del **objeto publicado** (`CC-BY-4.0`).
+<!-- HUELLA-README-ALINEADO-LICENCIA-20261014 -->
+
+El corpus decide la licencia **por capas**, y la decisión está escrita en el repositorio de trabajo
+(`LICENSE` · `LICENSE-DOCS.md`): los **documentos y datos** (`*.md`, `*.json`, `*.cff`) van bajo
+**CC BY 4.0** y el **código** (`*.py`, `*.sh`, `*.toml`, `action.yml`) bajo **Apache 2.0**. El objeto
+publicado aquí es documentación, de modo que su capa es **CC BY 4.0**: eso declara este registro y eso
+cita el `CITATION.cff` de este repositorio. El campo `license` del depósito admite **un solo valor** y
+debe llevar **la capa del objeto depositado**.
+
+Ahora bien: la cabecera de ese manuscrito declara `MIT`, un valor que **no pertenece a ninguna de las dos
+capas** ⇒ es un **defecto declarado, no reparado**. No se repara porque el objeto queda **sellado** por su
+DOI (la corrección viaja por apéndice, en el repositorio de trabajo) y porque el defecto **no es de ese
+manuscrito sino de la convención de la serie** — el Manuscrito 1 declara el mismo valor—. Esa divergencia
+está declarada en los metadatos del depósito (`notes`), que la conservan por consistencia de serie.
