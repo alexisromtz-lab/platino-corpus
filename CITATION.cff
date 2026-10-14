@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Si usa este objeto, cítelo con los metadatos de abajo."
+title: "Prediccion pre-registrada cumplida (768 s): anterioridad sellada por git entre la clausula predictiva y el objeto que la cumple"
+type: article
+authors:
+  - family-names: "Roman Martinez"
+    given-names: "Jose Alexis"
+    affiliation: "Platino Labs"
+date-released: "2026-10-14"
+version: "0.1.0"
+doi: "10.5281/zenodo.23363121"
+url: "https://zenodo.org/records/23363121"
+license: CC-BY-4.0
+repository-code: "https://github.com/alexisromtz-lab/platino-labs"
+keywords:
+  - pre-registro
+  - anterioridad sellada
+  - prediccion falsable
+  - banco must-fail
+  - causa tipada
+  - persistencia causal
+  - reproducibilidad
+  - git commit epoch
+  - adaptador de persistencia
+  - serializar y rehidratar
+  - memoria causal
+  - motor incompatible
+  - verificacion de fidelidad
+  - arquitectura de software
+  - preprint
+abstract: >-
+  Se registra una prediccion emitida antes de que existiera el objeto que la cumple, y el cumplimiento
+  medido: entre la clausula predictiva y el adaptador que la satisface median 768 s. La prediccion se
+  emitio como un caso de un banco must-fail que exige, ademas del codigo de salida, la causa impresa.
