@@ -1,0 +1,7 @@
+{
+  "huella": "HUELLA-CLAIMS-PLATINO-CORPUS-20261020",
+  "repo": "platino-corpus",
+  "clase": "C",
+  "estado": "SIN_DATO_MECANIZABLE",
+  "motivo": "0 artefactos .json y 0 .txt rastreados (medido con git ls-files el 2026-10-20): es un corpus de prosa; sus cifras, si las tiene, no salen de un artefacto mecanizable."
+}
