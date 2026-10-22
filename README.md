@@ -26,8 +26,9 @@ El manuscrito no introduce mediciones nuevas: **cita** una anterioridad ya sella
 cláusula predictiva (`RC=40` / `BANCO:OBJETO_AUSENTE`, acta verde `de76344`, epoch `1791943518`) y el
 objeto que la cumple (adaptador `core/persistence.py`, `e73d1e0`, epoch `1791944286`), con
 `delta_s = 768`. La evidencia primaria (acta) y el código viven en el repositorio de trabajo
-[alexisromtz-lab/platino-labs](https://github.com/alexisromtz-lab/platino-labs); este repositorio
-existe para que el objeto publicado tenga una URL estable y citable **sin** arrastrar el corpus.
+del autor, que es privado y no se cita aqui por URL; este repositorio existe para que el
+objeto publicado tenga una URL estable y citable **sin** arrastrar el corpus. La trazabilidad
+la sostienen los blobs citados (`de76344`, `e73d1e0`), no la ruta del arbol que los contiene.
 
 ## Licencia — esquema de dos capas, y un defecto declarado
 
