@@ -56,5 +56,12 @@ def main() -> None:
     print("[VEREDICTO] BATERIA SEMANTICA SANA (RC 0)")
 
 
+def test_semantica_corpus() -> None:
+    main()
+
+
 if __name__ == "__main__":
     main()
+
+
+# HUELLA-TEST-SEMANTICA-CORPUS-PYTEST-20261022

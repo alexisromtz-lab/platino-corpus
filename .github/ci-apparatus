@@ -1,2 +1,4 @@
-python3 tests/test_semantica_corpus.py
-# HUELLA-CI-APPARATUS-CORPUS-NV6-20261022
+comando: python3 -m pytest tests/test_semantica_corpus.py --junitxml=/tmp/junit.xml
+mide: tests
+evidencia: junitxml
+# HUELLA-CI-APPARATUS-CORPUS-NV6-RUNNER-20261022
